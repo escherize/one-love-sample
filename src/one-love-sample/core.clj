@@ -1,6 +1,8 @@
 (ns one-love-sample.core
   (:require [one.love :as ol]))
 
-;; cannot load this namespace.
+;; cannot connect to a db (using leiningen) D:
 
-;; error: https://gist.github.com/686d2db06194b3f9597b754f430874a0
+(ol/connect)
+
+;; error: https://gist.github.com/e1d7018b5f511d77fcec2f5b77f73294
